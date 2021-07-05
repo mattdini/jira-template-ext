@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Jira Template Filler</title>
+    <style>
+        #title {
+            font-family: "Arial Black", Gadget, sans-serif;
+            font-size: 19px;
+            color: #000000;
+            text-transform: none;
+        }
+
+         #formfield {
+            font-family: "Arial Black", Gadget, sans-serif;
+            font-size: 10px;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+            color: #000000;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            vertical-align:top;
+        }
+    </style>
+</head>
+
+<body>
+    <table padding="5px">
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <div>
+                        <img width="32" height="32" style="vertical-align:middle" src='./icon.png'>
+                        <span id="title">Jira Template Filler</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="formfield">Template:</td>
+                <td><textarea id="user_template" rows="25" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="savebutton" value="Submit">Save</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<script src="ui.js"></script>
+
+</html>
