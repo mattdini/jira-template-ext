@@ -8,6 +8,7 @@
             "https://*.atlassian.net/*"
         ],
         "js": [
+            "purify.min.js",
             "content-script.js"
         ]
     }

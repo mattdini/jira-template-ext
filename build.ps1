@@ -1,3 +1,3 @@
 Get-ChildItem -Path * -Recurse -File -Exclude *.zip,*.ps1,*.bat | 
-    Where-Object {$_.Directory -notmatch 'git' } |
+    Where-Object {$_.Directory -notmatch 'docs' } |
     Compress-Archive -Force -DestinationPath firefox.zip
