@@ -3,16 +3,16 @@ function getUserTemplate(node) {
     chrome.storage.sync.get("jira_template", function (data) {
         if (data.jira_template) {
             if (data.jira_template == "") {
-                node.innerHTML = DOMPurify.sanitize('Setup A Template In The Toolbar!');
+                node.innerHTML = 'Setup A Template In The Toolbar!';
                 return;
             }
 
-            let clean = DOMPurify.sanitize(data.jira_template);
+            let clean = data.jira_template;
             node.innerHTML = clean;
             return;
         }
 
-        node.innerHTML = DOMPurify.sanitize('Setup A Template In The Toolbar!');
+        node.innerHTML = 'Setup A Template In The Toolbar!';
     });
 }
 

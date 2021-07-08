@@ -8,3 +8,7 @@ You can supply your own template in the toolbar menu by clicking on the icon.
 
 ### Example Usage
 ![Example](docs/jira-template-filler.gif)
+
+
+### Credits
+Icon made by ![phatplus](https://www.flaticon.com/authors/phatplus) perfect from ![www.flaticon.com](https://www.flaticon.com)
