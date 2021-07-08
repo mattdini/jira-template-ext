@@ -1,4 +1,3 @@
-alert('asdf');
 
 function getUserTemplate(node) {
     chrome.storage.sync.get("jira_template", function (data) {
